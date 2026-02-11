@@ -38,3 +38,11 @@ Run the provided Python script to parse the XML and automate the `ffmpeg` filter
 
 ```bash
 python3 camancipation.py
+
+For now, you need to edit the file to set the filenames.
+
+## ⚖️ License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. 
+
+*Camancipation* is provided "as is" in the spirit of open-source data recovery. It is not affiliated with, or endorsed by, TechSmith Corporation.
