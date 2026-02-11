@@ -1,0 +1,13 @@
+*.trec
+*.xml
+*.mkv
+*.mp4
+*.wav
+*.aac
+*.ts
+*-old
+
+list.txt
+temp_clips/
+__pycache__/
+.DS_Store
