@@ -18,7 +18,7 @@ Camancipation uses your `project.xml` as a surgical map to carve out segments fr
 - [**FFmpeg**](https://www.ffmpeg.org) (with `h264_videotoolbox` support)
 - [**LosslessCut**](https://github.com/mifi/lossless-cut) (for initial stream extraction)
 
-For Apple Silicon it will utilize hardware acceleration.
+For Apple Silicon it will utilize hardware acceleration with `h264_videotoolbox`.
 
 ## 🚀 Workflow
 
@@ -35,10 +35,11 @@ Locate the `project.xml` file within your Camtasia project folder.
 Run the provided Python script to parse the XML and automate the `ffmpeg` filtergraph:
 
 ```bash
-python3 camancipation.py
+python3 camancipation.py -h
 ```
 
-For now, you need to edit the file to set the filenames.
+for help on the command line options.
+
 
 ## 🧠 How Segment Selection Works
 
