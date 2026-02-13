@@ -2,7 +2,7 @@
 
 <img src="images/camancipation.png" width="400">
 
-**Camancipation** is a minimalist recovery tool for freeing legacy TechSmith Camtasia (`.trec`) recordings. Designed for Mac power users who prefer `vi` over GUIs and `ffmpeg` over bloat.
+**Camancipation** is a minimalist recovery tool for freeing legacy TechSmith Camtasia (`.trec`) recordings. Designed for power users who prefer command lines over GUIs and `ffmpeg` over bloat.
 
 ## The Problem
 Old `.trec` files are proprietary black boxes. If your software version doesn't match, or the file index is "incomplete," your footage is effectively held hostage.
